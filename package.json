@@ -22,5 +22,15 @@
   "bugs": {
     "url": "https://github.com/JoseCrz/js-spa/issues"
   },
-  "homepage": "https://github.com/JoseCrz/js-spa#readme"
+  "homepage": "https://github.com/JoseCrz/js-spa#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.10.3"
+  }
 }

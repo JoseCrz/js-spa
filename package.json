@@ -1,0 +1,26 @@
+{
+  "name": "js-spa",
+  "version": "1.0.0",
+  "description": "Basic Single Page Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseCrz/js-spa.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "ECMAScript",
+    "ES6",
+    "JS",
+    "SPA"
+  ],
+  "author": "Jose Cuevas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoseCrz/js-spa/issues"
+  },
+  "homepage": "https://github.com/JoseCrz/js-spa#readme"
+}

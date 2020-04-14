@@ -22,7 +22,7 @@ const router = async () => {
   const route = await resolveRoutes(hash)
   const render = routes[route] ? routes[route] : error404
 
-  $content.innerHTML = render()
+  $content.innerHTML = await render()
 }
 
 export default router

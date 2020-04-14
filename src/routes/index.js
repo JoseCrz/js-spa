@@ -17,6 +17,12 @@ const router = async () => {
   const $content = document.querySelector('#content') || null
 
   $header.innerHTML = await header()
+  
+  const hash = getHash()
+  const route = await resolveRoutes(hash)
+  const render = routes[route] ? routes[route] : error404
+
+  $content.innerHTML = render()
 }
 
 export default router

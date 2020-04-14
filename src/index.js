@@ -1,1 +1,3 @@
-console.log('Mimi bebé')
+import router from './routes'
+
+window.addEventListener('load', router)
